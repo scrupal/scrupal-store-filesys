@@ -1,8 +1,0 @@
-@(alert: scrupal.db.Alert)(implicit context : scrupal.controllers.Context)
-
-@import scrupal.db.Alert
-@import scrupal.views.html
-
-@html.markedPage("ERROR") {
-@html.messages(Option[Alert](alert))
-}
